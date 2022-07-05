@@ -5,7 +5,7 @@ import web.model.Car;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ServiseCarImpl implements ServiseCar{
+public class ServiceCarImpl implements ServiceCar {
     @Override
     public List<Car> getCarsList(List<Car> cars, Integer cont) {
         if (cont == null) {
